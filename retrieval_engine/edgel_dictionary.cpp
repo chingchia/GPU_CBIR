@@ -193,6 +193,10 @@ void computeDocScore(Mat skch, map<int, Content_Vec>& const edgel_dic, vector<do
 	
 	cvtToOrntImg(skch);
 
+	cout << skch;
+	imshow("ornt_skch", skch);
+	waitKey();
+
 	for(int x = 0; x < skch.rows; x++)
 	{
 		for(int y = 0; y < skch.cols; y++)
