@@ -13,6 +13,7 @@ void cvtToOrntImg(cv::Mat& rawImg);
 void analyzeEdgelDic(std::map<int, Content_Vec>& const edgel_dic, bool const flag = false);
 void computeDocScore(cv::Mat skch, std::map<int, Content_Vec>& const edgel_dic, std::vector<double>& score);
 void makeEdgelDicFile(std::map<int, Content_Vec>& edgel_dic);
+void makeEdgelCtrFile(std::vector<int>& edgel_ctr);
 
 #endif
 

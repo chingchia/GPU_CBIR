@@ -237,3 +237,16 @@ void makeEdgelDicFile(map<int, Content_Vec>& edgel_dic)
 
 	}
 }
+
+void makeEdgelCtrFile(vector<int>& edgel_ctr)
+{
+	ofstream myfile;
+	myfile.open("edgel_ctr.txt");
+	
+	for(int i = 0; i < edgel_ctr.size(); i++)
+	{
+		myfile << i << " " << edgel_ctr[i];
+		myfile << endl;
+
+	}
+}

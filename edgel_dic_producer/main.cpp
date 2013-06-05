@@ -49,6 +49,8 @@ int main( int argc, char** argv )
 	
 	cout << "Writing edgel_dic into file" << endl;
 	makeEdgelDicFile(edgel_dic);
+	makeEdgelCtrFile(edgel_counter);
+
 
 	return 0;
 }
